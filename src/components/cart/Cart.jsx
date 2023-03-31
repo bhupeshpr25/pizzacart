@@ -6,7 +6,6 @@ import OrderSummary from "./OrderSummary";
 const Cart = ({ items, quantity, total }) => {
   console.log(items);
   const dispatch = useDispatch();
-  const { items, quantity, total } = props;
 
   return (
     <section className="w-full max-w-screen-xl mx-auto px-4 py-6 flex flex-col justify-between md:flex-row md:items-start gap-6">
